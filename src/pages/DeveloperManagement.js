@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SummaryApi from '../common';
 import { toast } from 'react-toastify';
 import SignUp from '../pages/SignUp';
-import AddRoleToUserModal from './AddRoleToUserModal';
+import AddRoleToUserModal from '../components/AddRoleToUserModal';
 
 const DeveloperManagement = () => {
   const [openAddUserModal, setOpenAddUserModal] = useState(false);

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import SummaryApi from '../common';
 import SignUp from '../pages/SignUp';
-import AddRoleToUserModal from './AddRoleToUserModal';
+import AddRoleToUserModal from '../components/AddRoleToUserModal';
 
 const AdminManagement = () => {
   const [admins, setAdmins] = useState([]);
